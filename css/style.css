@@ -413,6 +413,7 @@ img {
 .modal-form-check {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
 }
 .modal-input-check:checked + .modal-icon-checkbox {
@@ -425,6 +426,9 @@ img {
 }
 .modal-input-check:checked + .modal-icon-checkbox .modal-checkbox {
   display: block;
+}
+.footer-form {
+  display: flex;
 }
 .footer-form-title {
   font-weight: 700;
@@ -750,13 +754,12 @@ img {
   column-gap: 10px;
 }
 .footer-social {
-  margin-right: 93px;
+  margin-right: auto;
 }
-.footer-label {
-  display: flex;
-}
+
 .modal-form-footer {
   min-width: 358px;
+  height: 100%;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
